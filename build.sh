@@ -52,6 +52,8 @@ Requires:       cmake
 Requires:       extra-cmake-modules
 Requires:       zlib-devel
 Requires:       libepoxy-devel
+Requires:       flatpak-devel
+Requires:       fontconfig-devel
 
 # BlossomUI — Qt6 stack
 Requires:       qt6-qtbase-devel
