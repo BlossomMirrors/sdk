@@ -38,6 +38,8 @@ Requires:       gdb
 Requires:       strace
 Requires:       ltrace
 Requires:       valgrind
+Requires:       jq
+Requires:       yq
 
 # RPM build tools
 Requires:       rpm-build
