@@ -96,6 +96,7 @@ Requires:       kf5-kpackage-devel
 # Plasma patches — QT6 stack
 Requires:       qt6-qtlocation-devel
 Requires:       qt6-qtshadertools-devel
+Requires:       qcoro-qt6-devel
 
 %description
 Metapackage that pulls in all dependencies needed to build BlossomOS
