@@ -74,6 +74,7 @@ Requires:       kf6-kcmutils-devel
 Requires:       kf6-frameworkintegration-devel
 Requires:       kf6-kirigami-devel
 Requires:       kwin-devel
+Requires:       kdecoration-devel
 
 # BlossomUI — Qt5 stack
 Requires:       qt5-qtbase-devel
@@ -91,6 +92,10 @@ Requires:       kf5-kcmutils-devel
 Requires:       kf5-frameworkintegration-devel
 Requires:       kf5-kirigami2-devel
 Requires:       kf5-kpackage-devel
+
+# Plasma patches — QT6 stack
+Requires:       qt6-qtlocation-devel
+Requires:       qt6-qtshadertools-devel
 
 %description
 Metapackage that pulls in all dependencies needed to build BlossomOS
