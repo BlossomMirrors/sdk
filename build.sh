@@ -75,6 +75,36 @@ Requires:       kf6-frameworkintegration-devel
 Requires:       kf6-kirigami-devel
 Requires:       kwin-devel
 Requires:       kdecoration-devel
+Requires:       kf6-baloo-devel
+Requires:       kf6-karchive-devel
+Requires:       kf6-kcrash-devel
+Requires:       kf6-kdbusaddons-devel
+Requires:       kf6-kdeclarative-devel
+Requires:       kf6-kded-devel
+Requires:       kf6-kdesu-devel
+Requires:       kf6-kdoctools-devel
+Requires:       kf6-kglobalaccel-devel
+Requires:       kf6-kholidays-devel
+Requires:       kf6-kidletime-devel
+Requires:       kf6-kio-devel
+Requires:       kf6-kirigami-addons-devel
+Requires:       kf6-kitemmodels-devel
+Requires:       kf6-knewstuff-devel
+Requires:       kf6-knotifications-devel
+Requires:       kf6-knotifyconfig-devel
+Requires:       kf6-kpeople-devel
+Requires:       kf6-kquickcharts-devel
+Requires:       kf6-krunner-devel
+Requires:       kf6-kstatusnotifieritem-devel
+Requires:       kf6-ksvg-devel
+Requires:       kf6-ktexteditor-devel
+Requires:       kf6-ktextwidgets-devel
+Requires:       kf6-kunitconversion-devel
+Requires:       kf6-kuserfeedback-devel
+Requires:       kf6-kwallet-devel
+Requires:       kf6-networkmanager-qt-devel
+Requires:       kf6-prison-devel
+Requires:       kf6-threadweaver-devel
 
 # BlossomUI — Qt5 stack
 Requires:       qt5-qtbase-devel
@@ -93,10 +123,66 @@ Requires:       kf5-frameworkintegration-devel
 Requires:       kf5-kirigami2-devel
 Requires:       kf5-kpackage-devel
 
-# Plasma patches — QT6 stack
+# Plasma patches — Qt6 stack
+Requires:       qt6-qt5compat-devel
+Requires:       qt6-qtbase-private-devel
+Requires:       qt6-qtbase-static
 Requires:       qt6-qtlocation-devel
 Requires:       qt6-qtshadertools-devel
+Requires:       qt6-qtwayland-devel
 Requires:       qcoro-qt6-devel
+
+# Plasma — KDE libs
+Requires:       appstream-qt-devel
+Requires:       knighttime-devel
+Requires:       kpipewire-devel
+Requires:       kscreenlocker-devel
+Requires:       kwayland-devel
+Requires:       layer-shell-qt-devel
+Requires:       libkexiv2-qt6-devel
+Requires:       libkscreen-devel
+Requires:       libksysguard-devel
+Requires:       libplasma-devel
+Requires:       PackageKit-Qt6-devel
+Requires:       phonon-qt6-devel
+Requires:       plasma5support-devel
+Requires:       plasma-activities-devel
+Requires:       plasma-activities-stats-devel
+Requires:       plasma-breeze-devel
+Requires:       plasma-wayland-protocols-devel
+Requires:       polkit-qt6-1-devel
+
+# Plasma — system and X11 libs
+Requires:       boost-devel
+Requires:       chrpath
+Requires:       iso-codes-devel
+Requires:       libbsd-devel
+Requires:       libcanberra-devel
+Requires:       libGL-devel
+Requires:       libqalculate-devel
+Requires:       libraw1394-devel
+Requires:       libSM-devel
+Requires:       libXcomposite-devel
+Requires:       libXcursor-devel
+Requires:       libXdamage-devel
+Requires:       libXdmcp-devel
+Requires:       libXfixes-devel
+Requires:       libXft-devel
+Requires:       libxkbfile-devel
+Requires:       libXrandr-devel
+Requires:       libXtst-devel
+Requires:       lm_sensors-devel
+Requires:       mesa-libGLES-devel
+Requires:       pam-devel
+Requires:       pciutils-devel
+Requires:       pipewire-devel
+Requires:       wayland-protocols-devel
+Requires:       xcb-util-cursor-devel
+Requires:       xcb-util-devel
+Requires:       xcb-util-image-devel
+Requires:       xcb-util-keysyms-devel
+Requires:       xcb-util-renderutil-devel
+Requires:       xcb-util-wm-devel
 
 %description
 Metapackage that pulls in all dependencies needed to build BlossomOS
