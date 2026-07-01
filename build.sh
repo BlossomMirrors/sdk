@@ -184,6 +184,10 @@ Requires:       xcb-util-keysyms-devel
 Requires:       xcb-util-renderutil-devel
 Requires:       xcb-util-wm-devel
 
+# Fedora development
+Requires:       rpmbuild
+Requires:       koji
+
 %description
 Metapackage that pulls in all dependencies needed to build BlossomOS
 components: BlossomUI (Qt/KDE theme), Arc (software center), and the
