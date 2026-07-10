@@ -105,6 +105,7 @@ Requires:       kf6-kwallet-devel
 Requires:       kf6-networkmanager-qt-devel
 Requires:       kf6-prison-devel
 Requires:       kf6-threadweaver-devel
+Requires:       kf6-kpackage-devel
 
 # BlossomUI — Qt5 stack
 Requires:       qt5-qtbase-devel
