@@ -2,7 +2,7 @@
 set -e
 
 PACKAGE_NAME=blossomos-sdk
-VERSION=0.2.0
+VERSION=0.2.1
 RELEASE=1
 BUILDROOT=$(pwd)/rpmbuild
 SPECS_DIR=$BUILDROOT/SPECS
@@ -186,7 +186,6 @@ Requires:       xcb-util-renderutil-devel
 Requires:       xcb-util-wm-devel
 
 # Fedora development
-Requires:       rpmbuild
 Requires:       koji
 
 %description
