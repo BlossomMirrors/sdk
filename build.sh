@@ -192,6 +192,7 @@ Requires:       koji
 Requires:       createrepo_c
 Requires:       libappstream-glib
 Requires:       rpm-sign
+Requires:       appstream-builder
 
 %description
 Metapackage that pulls in all dependencies needed to build BlossomOS
