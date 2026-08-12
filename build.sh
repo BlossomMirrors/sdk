@@ -188,6 +188,11 @@ Requires:       xcb-util-wm-devel
 # Fedora development
 Requires:       koji
 
+# Infra deps
+Requires:       createrepo_c
+Requires:       libappstream-glib
+Requires:       rpm-sign
+
 %description
 Metapackage that pulls in all dependencies needed to build BlossomOS
 components: BlossomUI (Qt/KDE theme), Arc (software center), and the
