@@ -2,7 +2,7 @@
 set -e
 
 PACKAGE_NAME=blossomos-sdk
-VERSION=0.2.2
+VERSION=0.2.3
 RELEASE=1
 BUILDROOT=$(pwd)/rpmbuild
 SPECS_DIR=$BUILDROOT/SPECS
@@ -187,12 +187,6 @@ Requires:       xcb-util-wm-devel
 
 # Fedora development
 Requires:       koji
-
-# Infra deps
-Requires:       createrepo_c
-Requires:       libappstream-glib
-Requires:       rpm-sign
-Requires:       appstream-builder
 
 %description
 Metapackage that pulls in all dependencies needed to build BlossomOS
