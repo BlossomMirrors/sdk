@@ -3,7 +3,7 @@ set -e
 
 PACKAGE_NAME=blossomos-sdk
 VERSION=0.2.3
-RELEASE=1
+RELEASE=2
 BUILDROOT=$(pwd)/rpmbuild
 SPECS_DIR=$BUILDROOT/SPECS
 SOURCES_DIR=$BUILDROOT/SOURCES
@@ -48,6 +48,7 @@ Requires:       rpmdevtools
 # Arc (Rust) build dependencies
 Requires:       cargo
 Requires:       rust
+Requires:       rust-src
 
 # BlossomUI — build system
 Requires:       cmake
